@@ -1,0 +1,16 @@
+.wrap-1170 {
+  height: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  @media screen and (max-width: 1200px) {
+    max-width: 800px;
+  }
+}
+
+.active .select-body {
+  display: block !important;
+}
+
+body.lock {
+  overflow: hidden;
+}
